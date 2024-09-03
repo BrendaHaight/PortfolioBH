@@ -1,0 +1,23 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Technologies from "./components/Technologies";
+
+const App = () => {
+  return (
+    <div className="overflow-x-hidden text-neutral-300 antialiased  selection: text-purple-900">
+      <div className="fixed top-0 -z-10 h-full w-full">
+        <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div>
+      </div>
+      {/* <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]"></div> */}
+      <div className="container mx-auto px-8">
+        <Navbar />
+        <Hero />
+        <About />
+        <Technologies />
+      </div>
+    </div>
+  );
+};
+
+export default App;
