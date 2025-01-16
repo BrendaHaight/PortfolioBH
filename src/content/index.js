@@ -9,10 +9,17 @@ export const ABOUT_TEXT = `I'm originally from Brazil and now making my way in t
 export const EXPERIENCES = [
   {
     year: "2024",
-    role: "Full Stack",
-    company: "AAA",
-    description: `Update soon`,
-    technologies: ["JavaScript", "React", "Node.js", "mongoDB"],
+    role: "Freelance Web Developer",
+    company: "Self-Employed, Remote",
+    description: `Developed and deployed a client service website using React, Tailwind CSS, and TypeScript
+ for an engaging, responsive user interface.
+ Built and maintained a Node.js and Express.js backend for efficient data handling and
+ integration.
+ Worked closely with the client to gather requirements, ensure project alignment, and
+ implement custom features tailored to their service needs.
+ Delivered a comprehensive, full-stack solution that enhanced the client's online presence
+ and service accessibility`,
+    technologies: ["TypeScript", "React", "Node.js", " Tailwind", "Express.js"],
   },
 ];
 
@@ -41,7 +48,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "10617 Deer Canyon Rd, Jonestown, TX 78645 ",
+  address: "904 Euclid St NW, Washington,DC 20001 ",
   phoneNo: "+1 512 777 8328 ",
   email: "brendahaightt@gmail.com",
 };
